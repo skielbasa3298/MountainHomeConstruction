@@ -1142,7 +1142,7 @@ section,
   bottom: 0;
   z-index: 3;
   transition: all ease-in-out 0.3s;
-  padding: 15px;
+  padding: 20px;
 }
 
 .portfolio .portfolio-item .portfolio-info h4 {
@@ -1164,9 +1164,12 @@ section,
   right: 20px;
   font-size: 30px;
   top: calc(50% - 14px);
+  background-color: color-mix(in srgb, var(--surface-color), transparent 50%);
   color: color-mix(in srgb, var(--default-color), transparent 0%);
   transition: 0.3s;
   line-height: 0;
+  padding: 8px;
+  border-radius: 10px;
 }
 
 .portfolio .portfolio-item .portfolio-info .preview-link:hover,
